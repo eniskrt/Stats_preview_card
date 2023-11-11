@@ -41,10 +41,10 @@ main{
 .card .card-title h5{
     color: var(--mainHeadSta)!important;
 }
-h5, h3{
+h1, h3{
     color: var(--mainHeadSta)!important;
 }
-h5{
+h1{
     font-size: 2rem!important;
 }
 .card-body{
