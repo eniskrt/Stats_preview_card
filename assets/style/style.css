@@ -25,7 +25,7 @@ main{
     height: auto;
 }
 .card .img::before{
-    background-color:hsla(277, 64%, 61%, 0.308);
+    background-color:hsla(277, 64%, 61%, 0.479);
     content: "";
     position: absolute;
     top: 0;
@@ -37,6 +37,9 @@ main{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+.img img{
+    object-fit: cover;
 }
 .card .card-title h5{
     color: var(--mainHeadSta)!important;
